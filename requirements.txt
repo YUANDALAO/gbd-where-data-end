@@ -1,0 +1,7 @@
+numpy==1.26.0
+pandas==2.2.2
+scipy==1.13.1
+statsmodels==0.14.2
+matplotlib==3.10.0
+openpyxl==3.1.5
+pycountry==26.2.16

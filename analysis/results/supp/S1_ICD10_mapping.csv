@@ -1,0 +1,31 @@
+Cause (GBD label in this study),ICD-10 three-character codes
+IHD,I20-I25
+Stroke,I60-I69
+COPD,J40-J44
+TBLCancer,C33-C34
+Diabetes,E10-E14
+LiverCancer,C22
+CKD,N18
+ColonRectumCancer,C18-C21
+StomachCancer,C16
+BreastCancer,C50
+EsophagealCancer,C15
+PancreaticCancer,C25
+ProstateCancer,C61
+LRI,J09-J18; J20-J22
+Dementias,F01; F03; G30-G31
+CLD,K70; K73-K74
+Asthma,J45-J46
+Tuberculosis,A15-A19
+HIVandAIDS,B20-B24
+ParkinsonDisease,G20
+Leukemia,C91-C95
+BladderCancer,C67
+KidneyCancer,C64-C65
+OvarianCancer,C56
+CervicalCancer,C53
+HHD,I11
+AF,I48
+CMY,I42
+IdiopathicEpilepsy,G40-G41
+GARBAGE,R00-R99

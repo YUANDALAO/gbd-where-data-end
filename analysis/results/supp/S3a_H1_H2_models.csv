@@ -1,0 +1,9 @@
+test,outcome,sample,est,lo,hi,p,n_countries,n,note
+H1,death,all,3.5453,2.7516,4.568,0.0,198,22172,"ratio of roughness, full VR (32y) vs none"
+H1,death,pop5M,3.331,2.4052,4.6131,0.0,119,13328,"ratio of roughness, full VR (32y) vs none"
+H1,death,poor_vs_rich,0.264,0.1972,0.3534,0.0,153,17132,ratio poor/rich
+H1,prev,all,1.5425,1.4084,1.6894,0.0,198,21777,"ratio of roughness, full VR (32y) vs none"
+H1,prev,pop5M,1.5202,1.3493,1.7127,0.0,119,13090,"ratio of roughness, full VR (32y) vs none"
+H1,prev,poor_vs_rich,0.6531,0.5884,0.7248,0.0,153,16828,ratio poor/rich
+H2,death,pop5M_5yr,0.1306,0.0764,0.192,0.0,91,112,mean R2 poor 0.283 - rich 0.153
+H2,prev,pop5M_5yr,0.0917,0.0566,0.154,0.0,91,110,mean R2 poor 0.259 - rich 0.168

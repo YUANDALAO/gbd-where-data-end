@@ -1,0 +1,7 @@
+# raw inputs (re-downloaded by fetch_public_data.py) and restricted extracts
+analysis/data_public/
+data/
+*.zip
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

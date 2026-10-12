@@ -1,0 +1,202 @@
+iso3,country,GBD region,VR years 1990-2021,first VR year (>=1980),max completeness (%),group,population 2019,SDI 2019
+ALB,Albania,Eastern Europe,19.0,1987.0,74.9,mid,2854191.0,0.700287863
+AND,Andorra,Western Europe,10.0,2011.0,100.0,mid,76343.0,0.865621024
+ARE,United Arab Emirates,North Africa and Middle East,3.0,2018.0,89.6,mid,9211657.0,0.842985326
+BIH,Bosnia and Herzegovina,Eastern Europe,10.0,1985.0,100.0,mid,3360711.0,0.716857125
+BMU,Bermuda,North America,32.0,1980.0,,mid,63911.0,0.817000338
+BOL,"Bolivia, Plurinational State of",South America,4.0,2000.0,,mid,11777315.0,0.590692043
+BWA,Botswana,Sub-Saharan Africa,1.0,2021.0,,mid,2499702.0,0.635324093
+CHN,China,East Asia,11.0,1987.0,62.0,mid,1407745000.0,0.703686824
+COK,Cook Islands,Oceania,1.0,2021.0,,mid,,0.769795913
+CPV,Cabo Verde,Sub-Saharan Africa,2.0,2011.0,93.0,mid,577030.0,0.522488008
+CYP,Cyprus,North Africa and Middle East,20.0,1999.0,86.0,mid,1228836.0,0.830980728
+DOM,Dominican Republic,North America,31.0,1980.0,58.6,mid,10881882.0,0.611913021
+ECU,Ecuador,South America,32.0,1980.0,85.3,mid,17343740.0,0.651787987
+FJI,Fiji,Oceania,13.0,1999.0,100.0,mid,918465.0,0.667060979
+FSM,"Micronesia, Federated States of",Oceania,4.0,2018.0,,mid,111379.0,0.581195255
+HND,Honduras,North America,7.0,1980.0,53.9,mid,9958829.0,0.504156505
+HTI,Haiti,North America,6.0,1980.0,9.5,mid,11160438.0,0.444328854
+IRN,"Iran, Islamic Republic of",North Africa and Middle East,5.0,2013.0,90.0,mid,86564202.0,0.686741662
+IRQ,Iraq,North Africa and Middle East,3.0,2008.0,65.0,mid,41563520.0,0.643635318
+JOR,Jordan,North Africa and Middle East,11.0,2008.0,65.0,mid,10698683.0,0.714998946
+KIR,Kiribati,Oceania,11.0,1991.0,87.0,mid,124241.0,0.519441321
+LBN,Lebanon,North Africa and Middle East,5.0,2017.0,,mid,5781907.0,0.738644009
+LBY,Libya,North Africa and Middle East,2.0,2016.0,,mid,6569088.0,0.716157239
+LKA,Sri Lanka,South Asia,23.0,1980.0,81.9,mid,21803000.0,0.693516063
+MAR,Morocco,North Africa and Middle East,17.0,2000.0,29.0,mid,36304408.0,0.547837444
+MNE,Montenegro,Eastern Europe,12.0,2000.0,100.0,mid,622028.0,0.789026903
+MNG,Mongolia,East Asia,7.0,1994.0,92.0,mid,3232430.0,0.611250681
+MYS,Malaysia,Southeast Asia,22.0,1997.0,56.0,mid,32804020.0,0.734587751
+NIC,Nicaragua,North America,31.0,1988.0,79.0,mid,6663924.0,0.516597046
+OMN,Oman,North Africa and Middle East,9.0,2009.0,87.0,mid,4602768.0,0.764527863
+PAK,Pakistan,South Asia,2.0,1993.0,,mid,223293280.0,0.491022981
+PER,Peru,South America,31.0,1980.0,69.0,mid,32824861.0,0.655433735
+PNG,Papua New Guinea,Oceania,1.0,1980.0,,mid,9542486.0,0.412311147
+PRI,Puerto Rico,North America,29.0,1980.0,,mid,3193694.0,0.818843191
+PRY,Paraguay,South America,30.0,1980.0,88.0,mid,6530026.0,0.626070139
+PSE,"Palestine, State of",North Africa and Middle East,12.0,2008.0,,mid,4685306.0,0.616466839
+SAU,Saudi Arabia,North Africa and Middle East,3.0,2009.0,50.6,mid,35827362.0,0.806087841
+SLB,Solomon Islands,Oceania,2.0,2017.0,,mid,674993.0,0.422736386
+SYR,Syrian Arab Republic,North Africa and Middle East,13.0,1980.0,92.5,mid,20098251.0,0.613336836
+THA,Thailand,Southeast Asia,29.0,1980.0,87.0,mid,71307763.0,0.675273901
+TJK,Tajikistan,Central Asia,22.0,1981.0,87.0,mid,9337003.0,0.533769951
+TKM,Turkmenistan,Central Asia,26.0,1981.0,85.0,mid,6158420.0,0.674303536
+TUN,Tunisia,North Africa and Middle East,5.0,2009.0,37.0,mid,12049314.0,0.673170552
+TUR,Türkiye,North Africa and Middle East,13.0,2009.0,92.0,mid,82579440.0,0.698263774
+VIR,"Virgin Islands, U.S.",North America,20.0,1980.0,,mid,106669.0,0.817429008
+ZWE,Zimbabwe,Sub-Saharan Africa,1.0,1990.0,0.0,mid,15354608.0,0.468384438
+AFG,Afghanistan,South Asia,0.0,,,poor,37769499.0,0.322454047
+AGO,Angola,Sub-Saharan Africa,0.0,,,poor,32353588.0,0.440454598
+ASM,American Samoa,Oceania,0.0,,,poor,47321.0,0.717308133
+BDI,Burundi,Sub-Saharan Africa,0.0,,,poor,11874838.0,0.283442515
+BEN,Benin,Sub-Saharan Africa,0.0,,,poor,12290444.0,0.360031163
+BFA,Burkina Faso,Sub-Saharan Africa,0.0,,,poor,20951639.0,0.274287092
+BGD,Bangladesh,South Asia,0.0,2023.0,,poor,165516222.0,0.473264998
+BTN,Bhutan,South Asia,0.0,,,poor,767459.0,0.464633353
+CAF,Central African Republic,Sub-Saharan Africa,0.0,,,poor,5209324.0,0.301953064
+CIV,Côte d'Ivoire,Sub-Saharan Africa,0.0,,,poor,26147551.0,0.41172558
+CMR,Cameroon,Sub-Saharan Africa,0.0,,,poor,25782341.0,0.464246473
+COD,"Congo, The Democratic Republic of the",Sub-Saharan Africa,0.0,,,poor,89906890.0,0.369340684
+COG,Congo,Sub-Saharan Africa,0.0,,,poor,5570733.0,0.573373665
+COM,Comoros,Sub-Saharan Africa,0.0,,,poor,790986.0,0.467388014
+DJI,Djibouti,Sub-Saharan Africa,0.0,,,poor,1073994.0,0.475263243
+DZA,Algeria,North Africa and Middle East,0.0,,,poor,42705368.0,0.648210785
+ERI,Eritrea,Sub-Saharan Africa,0.0,,,poor,3498818.0,0.396330558
+ETH,Ethiopia,Sub-Saharan Africa,0.0,,,poor,114120594.0,0.346422664
+GAB,Gabon,Sub-Saharan Africa,0.0,,,poor,2242785.0,0.619904727
+GHA,Ghana,Sub-Saharan Africa,0.0,,,poor,31522290.0,0.551632027
+GIN,Guinea,Sub-Saharan Africa,0.0,,,poor,12877539.0,0.322839848
+GMB,Gambia,Sub-Saharan Africa,0.0,,,poor,2508883.0,0.39918978
+GNB,Guinea-Bissau,Sub-Saharan Africa,0.0,,,poor,1970457.0,0.342156115
+GNQ,Equatorial Guinea,Sub-Saharan Africa,0.0,,,poor,1553031.0,0.645303093
+GRL,Greenland,North America,0.0,,,poor,56225.0,0.822339996
+GUM,Guam,Oceania,0.0,,,poor,168624.0,0.796775452
+IDN,Indonesia,Southeast Asia,0.0,,,poor,269582878.0,0.646865457
+IND,India,South Asia,0.0,,10.0,poor,1383112050.0,0.560809927
+KEN,Kenya,Sub-Saharan Africa,0.0,,,poor,50951450.0,0.508004211
+KHM,Cambodia,Southeast Asia,0.0,,,poor,16207746.0,0.46364343
+LAO,Lao People's Democratic Republic,Southeast Asia,0.0,,,poor,7212053.0,0.478811373
+LBR,Liberia,Sub-Saharan Africa,0.0,,,poor,4985289.0,0.343403262
+LSO,Lesotho,Sub-Saharan Africa,0.0,,,poor,2225702.0,0.502457317
+MCO,Monaco,Western Europe,0.0,1986.0,100.0,poor,37034.0,0.905030991
+MDG,Madagascar,Sub-Saharan Africa,0.0,,,poor,27533134.0,0.384209196
+MHL,Marshall Islands,Oceania,0.0,,,poor,44728.0,0.56342875
+MLI,Mali,Sub-Saharan Africa,0.0,,,poor,20567424.0,0.256250746
+MMR,Myanmar,Southeast Asia,0.0,,,poor,53040212.0,0.52410897
+MOZ,Mozambique,Sub-Saharan Africa,0.0,,,poor,30285595.0,0.313174508
+MRT,Mauritania,Sub-Saharan Africa,0.0,,,poor,4383849.0,0.483767738
+MWI,Malawi,Sub-Saharan Africa,0.0,,,poor,18867337.0,0.370114605
+NAM,Namibia,Sub-Saharan Africa,0.0,,,poor,2446644.0,0.610921091
+NER,Niger,Sub-Saharan Africa,0.0,,,poor,23443393.0,0.160889484
+NGA,Nigeria,Sub-Saharan Africa,0.0,,,poor,203304492.0,0.488787361
+NIU,Niue,Oceania,0.0,,,poor,,0.719078885
+NPL,Nepal,South Asia,0.0,,,poor,28832496.0,0.422007252
+NRU,Nauru,Oceania,0.0,,,poor,12132.0,0.612697253
+PLW,Palau,Oceania,0.0,,95.0,poor,17916.0,0.750715307
+PRK,"Korea, Democratic People's Republic of",East Asia,0.0,,,poor,25755441.0,0.566765706
+RWA,Rwanda,Sub-Saharan Africa,0.0,,,poor,12835028.0,0.423086727
+SDN,Sudan,North Africa and Middle East,0.0,,,poor,43232093.0,0.525009122
+SEN,Senegal,Sub-Saharan Africa,0.0,,,poor,16000781.0,0.394012316
+SLE,Sierra Leone,Sub-Saharan Africa,0.0,,,poor,8046828.0,0.345770019
+SOM,Somalia,Sub-Saharan Africa,0.0,,,poor,15981300.0,0.074979811
+SSD,South Sudan,Sub-Saharan Africa,0.0,,,poor,10447666.0,0.275706201
+STP,Sao Tome and Principe,Sub-Saharan Africa,0.0,1984.0,,poor,214599.0,0.48983823
+SWZ,Eswatini,Sub-Saharan Africa,0.0,,,poor,1169613.0,0.577206305
+TCD,Chad,Sub-Saharan Africa,0.0,,,poor,16126866.0,0.231704755
+TGO,Togo,Sub-Saharan Africa,0.0,,,poor,8243094.0,0.395667269
+TKL,Tokelau,Oceania,0.0,,,poor,,0.679247839
+TON,Tonga,Oceania,0.0,,,poor,104951.0,0.617324063
+TUV,Tuvalu,Oceania,0.0,,,poor,10956.0,0.566045489
+TZA,"Tanzania, United Republic of",Sub-Saharan Africa,0.0,,,poor,59872579.0,0.430225379
+UGA,Uganda,Sub-Saharan Africa,0.0,,,poor,42949080.0,0.408431557
+VNM,Viet Nam,Southeast Asia,0.0,,,poor,95776716.0,0.617733815
+VUT,Vanuatu,Oceania,0.0,,,poor,304404.0,0.466276162
+WSM,Samoa,Oceania,0.0,,,poor,211905.0,0.586256695
+YEM,Yemen,North Africa and Middle East,0.0,,,poor,31546691.0,0.4440014
+ZMB,Zambia,Sub-Saharan Africa,0.0,,,poor,18380477.0,0.487911523
+ARG,Argentina,South America,32.0,1980.0,100.0,rich,44938712.0,0.719002843
+ARM,Armenia,North Africa and Middle East,30.0,1981.0,100.0,rich,2820602.0,0.694765962
+ATG,Antigua and Barbuda,North America,30.0,1983.0,92.2,rich,92117.0,0.74305296
+AUS,Australia,Oceania,31.0,1980.0,100.0,rich,25334826.0,0.839317426
+AUT,Austria,Western Europe,32.0,1980.0,100.0,rich,8879920.0,0.849862515
+AZE,Azerbaijan,North Africa and Middle East,16.0,1981.0,93.0,rich,10024283.0,0.689834715
+BEL,Belgium,Western Europe,32.0,1980.0,100.0,rich,11488980.0,0.849498395
+BGR,Bulgaria,Eastern Europe,32.0,1980.0,100.0,rich,6975761.0,0.762359791
+BHR,Bahrain,North Africa and Middle East,18.0,1985.0,96.0,rich,1494188.0,0.742847804
+BHS,Bahamas,North America,24.0,1980.0,99.0,rich,404557.0,0.80103307
+BLR,Belarus,Eastern Europe,21.0,1981.0,100.0,rich,9419758.0,0.780508019
+BLZ,Belize,North America,31.0,1980.0,100.0,rich,389095.0,0.603351601
+BRA,Brazil,South America,32.0,1980.0,99.0,rich,211782878.0,0.645298005
+BRB,Barbados,North America,20.0,1980.0,100.0,rich,280180.0,0.742239309
+BRN,Brunei Darussalam,Southeast Asia,26.0,1996.0,100.0,rich,438048.0,0.804499388
+CAN,Canada,North America,32.0,1980.0,100.0,rich,37618495.0,0.870554479
+CHE,Switzerland,Western Europe,27.0,1995.0,100.0,rich,8575280.0,0.930682102
+CHL,Chile,South America,32.0,1980.0,100.0,rich,19039485.0,0.765120323
+COL,Colombia,South America,32.0,1981.0,98.5,rich,50187406.0,0.646038852
+CRI,Costa Rica,North America,32.0,1980.0,95.5,rich,5084532.0,0.690049088
+CUB,Cuba,North America,32.0,1980.0,100.0,rich,11316697.0,0.661674717
+CZE,Czechia,Eastern Europe,32.0,1986.0,100.0,rich,10671870.0,0.824784473
+DEU,Germany,Western Europe,31.0,1990.0,100.0,rich,83092962.0,0.899703158
+DMA,Dominica,North America,31.0,1980.0,100.0,rich,71428.0,0.742132066
+DNK,Denmark,Western Europe,28.0,1994.0,100.0,rich,5814422.0,0.891624571
+EGY,Egypt,North Africa and Middle East,22.0,1980.0,95.0,rich,105618671.0,0.587736877
+ESP,Spain,Western Europe,32.0,1980.0,100.0,rich,47134837.0,0.763942918
+EST,Estonia,Eastern Europe,32.0,1981.0,100.0,rich,1326898.0,0.838573509
+FIN,Finland,Western Europe,32.0,1987.0,100.0,rich,5521606.0,0.855365179
+FRA,France,Western Europe,32.0,1980.0,100.0,rich,67388001.0,0.833772805
+GBR,United Kingdom,Western Europe,31.0,1980.0,100.0,rich,66836327.0,0.854130573
+GEO,Georgia,North Africa and Middle East,28.0,1981.0,98.0,rich,3720161.0,0.724536462
+GRC,Greece,Western Europe,32.0,1980.0,100.0,rich,10721582.0,0.788138138
+GRD,Grenada,North America,28.0,1984.0,100.0,rich,122724.0,0.660808512
+GTM,Guatemala,North America,32.0,1980.0,100.0,rich,16604026.0,0.52863047
+GUY,Guyana,South America,30.0,1984.0,90.0,rich,798753.0,0.633640347
+HRV,Croatia,Eastern Europe,32.0,1985.0,100.0,rich,4065253.0,0.792475415
+HUN,Hungary,Eastern Europe,32.0,1980.0,100.0,rich,9771141.0,0.784910309
+IRL,Ireland,Western Europe,32.0,1980.0,100.0,rich,4934340.0,0.869412503
+ISL,Iceland,Western Europe,32.0,1981.0,100.0,rich,360563.0,0.87242558
+ISR,Israel,North Africa and Middle East,32.0,1980.0,100.0,rich,9054000.0,0.803232991
+ITA,Italy,Western Europe,32.0,1980.0,100.0,rich,59729081.0,0.801530021
+JAM,Jamaica,North America,22.0,1980.0,94.0,rich,2813773.0,0.677778539
+JPN,Japan,East Asia,32.0,1980.0,100.0,rich,126633000.0,0.867148183
+KAZ,Kazakhstan,Central Asia,32.0,1981.0,91.6,rich,18513673.0,0.720797602
+KGZ,Kyrgyzstan,Central Asia,32.0,1981.0,97.6,rich,6456200.0,0.596501638
+KNA,Saint Kitts and Nevis,North America,30.0,1980.0,100.0,rich,47712.0,0.748152066
+KOR,"Korea, Republic of",East Asia,32.0,1985.0,100.0,rich,51764822.0,0.88073151
+KWT,Kuwait,North Africa and Middle East,27.0,1980.0,99.4,rich,4441100.0,0.839688307
+LCA,Saint Lucia,North America,30.0,1980.0,97.0,rich,178583.0,0.666840359
+LTU,Lithuania,Eastern Europe,32.0,1981.0,100.0,rich,2794137.0,0.847906339
+LUX,Luxembourg,Western Europe,32.0,1980.0,100.0,rich,620001.0,0.880593895
+LVA,Latvia,Eastern Europe,32.0,1980.0,100.0,rich,1913822.0,0.824781777
+MDA,"Moldova, Republic of",Eastern Europe,32.0,1981.0,98.5,rich,2664224.0,0.723011648
+MDV,Maldives,South Asia,20.0,2000.0,91.0,rich,504508.0,0.643082794
+MEX,Mexico,North America,32.0,1980.0,100.0,rich,125085311.0,0.655095338
+MKD,North Macedonia,Eastern Europe,30.0,1991.0,100.0,rich,1876262.0,0.745193569
+MLT,Malta,Western Europe,32.0,1980.0,100.0,rich,504062.0,0.795197846
+MUS,Mauritius,Sub-Saharan Africa,32.0,1981.0,100.0,rich,1265985.0,0.710935045
+NLD,Netherlands,Western Europe,32.0,1980.0,100.0,rich,17344874.0,0.88464384
+NOR,Norway,Western Europe,27.0,1986.0,100.0,rich,5347896.0,0.912278761
+NZL,New Zealand,Oceania,31.0,1980.0,100.0,rich,4979200.0,0.844533209
+PAN,Panama,North America,25.0,1980.0,92.0,rich,4232532.0,0.69667068
+PHL,Philippines,Southeast Asia,23.0,1992.0,91.9,rich,110380804.0,0.638547384
+POL,Poland,Eastern Europe,30.0,1980.0,100.0,rich,37965475.0,0.804791332
+PRT,Portugal,Western Europe,29.0,1980.0,100.0,rich,10286263.0,0.738090481
+QAT,Qatar,North Africa and Middle East,20.0,1995.0,97.1,rich,2807235.0,0.835805284
+ROU,Romania,Eastern Europe,32.0,1980.0,100.0,rich,19371648.0,0.760283971
+RUS,Russian Federation,Eastern Europe,30.0,1980.0,100.0,rich,145453291.0,0.803658201
+SGP,Singapore,Southeast Asia,32.0,1980.0,94.0,rich,5703569.0,0.852497338
+SLV,El Salvador,North America,28.0,1981.0,93.0,rich,6280217.0,0.554031648
+SMR,San Marino,Western Europe,23.0,1995.0,100.0,rich,34178.0,0.88620066
+SRB,Serbia,Eastern Europe,24.0,1998.0,94.0,rich,6945235.0,0.7857683
+SUR,Suriname,South America,23.0,1980.0,100.0,rich,600301.0,0.627896781
+SVK,Slovakia,Eastern Europe,28.0,1992.0,100.0,rich,5454147.0,0.806448457
+SVN,Slovenia,Eastern Europe,32.0,1985.0,100.0,rich,2088385.0,0.838266782
+SWE,Sweden,Western Europe,32.0,1987.0,100.0,rich,10278887.0,0.882984116
+SYC,Seychelles,Sub-Saharan Africa,20.0,1981.0,100.0,rich,97625.0,0.722073685
+TTO,Trinidad and Tobago,North America,31.0,1980.0,99.7,rich,1519955.0,0.764169599
+UKR,Ukraine,Eastern Europe,28.0,1981.0,100.0,rich,44474512.0,0.757980081
+URY,Uruguay,South America,29.0,1980.0,100.0,rich,3428409.0,0.712536588
+USA,United States,North America,32.0,1980.0,100.0,rich,328329953.0,0.858578065
+UZB,Uzbekistan,Central Asia,29.0,1981.0,93.0,rich,33580350.0,0.655836959
+VCT,Saint Vincent and the Grenadines,North America,28.0,1982.0,100.0,rich,104924.0,0.628325986
+VEN,"Venezuela, Bolivarian Republic of",South America,25.0,1980.0,100.0,rich,28971683.0,0.602313887
+ZAF,South Africa,Sub-Saharan Africa,28.0,1993.0,92.3,rich,58087055.0,0.674041037

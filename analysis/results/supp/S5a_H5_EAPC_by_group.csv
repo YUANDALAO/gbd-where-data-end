@@ -1,0 +1,4 @@
+grp,series,median_CI_width,IQR_low,IQR_high,share_significant
+mid,5087,0.433,0.273,0.713,0.911
+poor,7655,0.294,0.182,0.489,0.917
+rich,9500,0.596,0.358,1.029,0.875
