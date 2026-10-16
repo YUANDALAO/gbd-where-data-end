@@ -34,7 +34,10 @@ Python 3.12, with pandas, numpy, statsmodels, scipy, matplotlib, openpyxl and py
 | `h1_srs_sensitivity.py` | Post hoc sensitivity of H1 to India and Bangladesh (national sample registration, no WHO VR) → `results/h1_srs_sensitivity.csv` (table S8) |
 | `h3_onset.py` | H3 VR-onset difference-in-differences (TWFE), permutation test, event study |
 | `h3_robust.py` | H3 with Callaway–Sant'Anna and Borusyak–Jaravel–Spiess estimators, 0- and 6-year anticipation |
+| `h3_exclude4.py` | H3 without Serbia, Montenegro, Iran and Türkiye, whose first WHO year may not mark the first data available to GBD → `results/h3_exclude4.csv` |
+| `h2_adjr2.py` | H2 with adjusted R² → `results/h2_adjr2.csv` |
 | `h4_h5.py` | H4 GBD vs raw VR associations; H5 EAPC precision and agreement |
+| `h4_h5_noise.py` | H4 and H5 agreement allowing for the sampling error of raw VR: clustered SEs, z tests of GBD–raw differences → `results/h4_pairs_se.csv`, `results/h4_h5_noise.csv` |
 | `h6_biblio.py` | PubMed counts per year (needs internet access) |
 | `figs.py` | Statistical figures (earlier versions of figures 1–4) in `figures/` |
 | `fig_data_country.py` | Country-level metrics for the main figures → `results/fig_country_metrics.csv`, `results/fig_onset_countries.csv` |

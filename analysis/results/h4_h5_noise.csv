@@ -1,0 +1,8 @@
+test,stat,value
+H4,pairs with significant raw association,19.0
+H4,"median abs(bG)/abs(bR), raw-significant pairs",0.6112509026695527
+H4,"sign disagreements, raw-significant pairs",2.0
+H4,pairs with significant GBD-raw difference,4.0
+H5b,series with significant GBD-raw EAPC difference (share),0.5286738351254481
+H5b,median SE ratio raw/GBD,2.2551381786021887
+H5b,GBD EAPC inside raw 95% CI (share),0.4274193548387097
