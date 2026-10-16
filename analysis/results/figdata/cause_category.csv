@@ -1,0 +1,113 @@
+cause,category
+CVD,Cardiovascular
+HHD,Cardiovascular
+IHD,Cardiovascular
+RHD,Cardiovascular
+AF,Cardiovascular
+CMY,Cardiovascular
+NRVHD,Cardiovascular
+PAH,Cardiovascular
+Stroke,Cardiovascular
+IschemicStroke,Cardiovascular
+ICH,Cardiovascular
+TotalCancers,Neoplasms
+Neoplasms,Neoplasms
+EsophagealCancer,Neoplasms
+StomachCancer,Neoplasms
+LarynxCancer,Neoplasms
+TBLCancer,Neoplasms
+BreastCancer,Neoplasms
+CervicalCancer,Neoplasms
+UterineCancer,Neoplasms
+ProstateCancer,Neoplasms
+ColonRectumCancer,Neoplasms
+LOCancer,Neoplasms
+NasopharynxCancer,Neoplasms
+GBTCancer,Neoplasms
+PancreaticCancer,Neoplasms
+MSM,Neoplasms
+NMSCancer,Neoplasms
+OvarianCancer,Neoplasms
+TesticularCancer,Neoplasms
+KidneyCancer,Neoplasms
+BladderCancer,Neoplasms
+BCNSCancer,Neoplasms
+ThyroidCancer,Neoplasms
+Mesothelioma,Neoplasms
+EyeCancer,Neoplasms
+STSarcomas,Neoplasms
+MBCNeoplasm,Neoplasms
+MMHNeoplasm,Neoplasms
+NeuroPNTumors,Neoplasms
+HodgkinLymphoma,Neoplasms
+NonHodgkinLymphoma,Neoplasms
+BurkittLymphoma,Neoplasms
+MultipleMyeloma,Neoplasms
+Leukemia,Neoplasms
+CRD,Chronic respiratory
+COPD,Chronic respiratory
+Asthma,Chronic respiratory
+ILD,Chronic respiratory
+CoalWrkPneumoconiosis,Chronic respiratory
+Silicosis,Chronic respiratory
+Asbestosis,Chronic respiratory
+Pneumoconiosis,Chronic respiratory
+OtherPneumoconiosis,Chronic respiratory
+OtherCRD,Chronic respiratory
+UGIDiseases,Digestive
+PUD,Digestive
+GandD,Digestive
+Appendicitis,Digestive
+IBD,Digestive
+PIIO,Digestive
+Hernia,Digestive
+VID,Digestive
+CLD,Digestive
+GallBiliaryDiseases,Digestive
+Pancreatitis,Digestive
+NAFLD,Digestive
+NeuroDisorders,Neurological & mental
+Dementias,Neurological & mental
+ParkinsonDisease,Neurological & mental
+IdiopathicEpilepsy,Neurological & mental
+MultipleSclerosis,Neurological & mental
+MotorNeuronDisease,Neurological & mental
+MentalDisorders,Neurological & mental
+EatingDisorders,Neurological & mental
+AlcoholUseDisorder,Neurological & mental
+Diabetes,Diabetes & kidney
+T1DM,Diabetes & kidney
+T2DM,Diabetes & kidney
+CKD,Diabetes & kidney
+CKD1,Diabetes & kidney
+CKD2,Diabetes & kidney
+AGN,Diabetes & kidney
+URI,"Infectious, maternal & neonatal"
+LRI,"Infectious, maternal & neonatal"
+Tuberculosis,"Infectious, maternal & neonatal"
+RIandTB,"Infectious, maternal & neonatal"
+MDRTB,"Infectious, maternal & neonatal"
+XDRTB,"Infectious, maternal & neonatal"
+NutriDeficien,"Infectious, maternal & neonatal"
+PEM,"Infectious, maternal & neonatal"
+NeonatalDisorders,"Infectious, maternal & neonatal"
+PTBirth,"Infectious, maternal & neonatal"
+NeonatalInfections,"Infectious, maternal & neonatal"
+Measles,"Infectious, maternal & neonatal"
+VZVandHZ,"Infectious, maternal & neonatal"
+DiarrhealDiseases,"Infectious, maternal & neonatal"
+EntericInfection,"Infectious, maternal & neonatal"
+OtherIID,"Infectious, maternal & neonatal"
+HIVandAIDS,"Infectious, maternal & neonatal"
+HBV,"Infectious, maternal & neonatal"
+HCV,"Infectious, maternal & neonatal"
+EctopicPregnancy,"Infectious, maternal & neonatal"
+EMBIDisorders,Other NCDs
+SIDS,Other NCDs
+RA,Other NCDs
+MSD,Other NCDs
+SkinSD,Other NCDs
+BSkinDiseases,Other NCDs
+UTIandIN,Other NCDs
+Urolithiasis,Other NCDs
+UterineFibroids,Other NCDs

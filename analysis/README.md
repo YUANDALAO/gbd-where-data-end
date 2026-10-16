@@ -41,7 +41,8 @@ Python 3.12, with pandas, numpy, statsmodels, scipy, matplotlib, openpyxl and py
 | `h6_biblio.py` | PubMed counts per year (needs internet access) |
 | `figs.py` | Statistical figures (earlier versions of figures 1–4) in `figures/` |
 | `fig_data_country.py` | Country-level metrics for the main figures → `results/fig_country_metrics.csv`, `results/fig_onset_countries.csv` |
-| `figs_country.py` | Main figures 1–4: maps, country scatter by SDI, 13 onset countries, country agreement (`Fig1_maps`, `Fig2_countries`, `Fig3_onset`, `Fig4_agreement`) |
+| `fig_data_main.py` | Inputs for the main figures not produced by the hypothesis scripts (roughness matrix, per-category and per-country estimates, partial R²) → `results/figdata/` |
+| `figs_main.py` | Main figures 1–4 (`figures/Figure1`–`Figure4`); style and map helpers come from `figs_country.py` |
 | `supp_tables.py` | Supplementary tables S1–S7 → `results/Supplementary_tables.xlsx` |
 
 The analysis plan, written before the formal runs, is `../ANALYSIS_PLAN.md`.
