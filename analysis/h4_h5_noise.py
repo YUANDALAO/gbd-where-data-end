@@ -31,4 +31,12 @@ out = pd.DataFrame([
     dict(test='H5b', stat='series with significant GBD-raw EAPC difference (share)', value=float((zE.abs() > 1.96).mean())),
     dict(test='H5b', stat='median SE ratio raw/GBD', value=float((ser / seg).median())),
     dict(test='H5b', stat='GBD EAPC inside raw 95% CI (share)', value=float(((E.g >= E.rl) & (E.g <= E.rh)).mean()))])
+# does disagreement depend on the precision of the raw trend?
+E['differ'] = zE.abs() > 1.96; E['ser'] = ser
+qs = E.groupby(pd.qcut(E.ser, 4, labels=['Q1 most precise', 'Q2', 'Q3', 'Q4 least precise']), observed=True).differ.mean()
+cty = E.groupby('iso3').agg(differ=('differ', 'mean'), ser=('ser', 'median'))
+rho = stats.spearmanr(cty.differ, cty.ser)
+out = pd.concat([out, pd.DataFrame([dict(test='H5b', stat=f'share differing, raw-SE quartile {k}', value=float(v)) for k, v in qs.items()] +
+                                   [dict(test='H5b', stat='Spearman rho, country share differing vs median raw SE', value=float(rho.statistic)),
+                                    dict(test='H5b', stat='Spearman P', value=float(rho.pvalue))])], ignore_index=True)
 out.to_csv(f'{RES}/h4_h5_noise.csv', index=False); print(out.to_string(index=False))

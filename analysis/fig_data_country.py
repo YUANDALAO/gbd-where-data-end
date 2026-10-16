@@ -2,7 +2,7 @@
 results/fig_country_metrics.csv : per country - years of VR, group, SDI 2019, population, GBD region,
     relative roughness of death trajectories (geometric mean over causes, cause-adjusted, 1992-2021; 1 = average country),
     relative width of the conventional 95% CI of GBD EAPC (median over causes of width / cause median),
-    and, for data-rich countries with raw VR, share of series whose raw EAPC lies inside the GBD CI and share agreeing in sign.
+    and, for data-rich countries with raw VR, share of series whose GBD and raw EAPC differ significantly (z test combining both SEs) and share agreeing in sign.
 results/fig_onset_countries.csv : per treated country and year, cause-adjusted log roughness (country-cause and
     cause-year means removed), for the 13 countries whose national VR began in 1998-2013.
 """
@@ -24,7 +24,9 @@ C['ci_width_rel'] = C.iso3.map(E.groupby('iso3').w_rel.median())
 
 V = pd.read_csv(os.path.join(RES, 'h5_eapc_gbd_vs_raw.csv'))
 V['inside'] = (V.r >= V.gl) & (V.r <= V.gh); V['sign'] = np.sign(V.g) == np.sign(V.r)
-A = V.groupby('iso3').agg(n_series=('cause', 'size'), inside=('inside', 'mean'), sign=('sign', 'mean'))
+se_g, se_r = (V.gh - V.gl) / 3.92, (V.rh - V.rl) / 3.92                  # z test combining both standard errors
+V['differ'] = ((V.g - V.r) / np.sqrt(se_g ** 2 + se_r ** 2)).abs() > 1.96
+A = V.groupby('iso3').agg(n_series=('cause', 'size'), inside=('inside', 'mean'), sign=('sign', 'mean'), differ=('differ', 'mean'))
 C = C.join(A, on='iso3')
 C.to_csv(os.path.join(RES, 'fig_country_metrics.csv'), index=False)
 

@@ -3,8 +3,8 @@ Fig1_maps:      (a) years of national VR 1990-2021; (b) relative roughness of GB
                 (c) growth of GBD trend papers; (d) illustrative trajectory, Turkiye.
 Fig2_countries: 201 countries by SDI - (a) relative roughness, (b) relative width of the EAPC confidence interval.
 Fig3_onset:     13 countries whose VR began in 1998-2013, one panel each, plus the pooled event study.
-Fig4_agreement: 78 data-rich countries - (a) map of the share of series whose raw EAPC lies inside the GBD CI,
-                (b) the same share and sign agreement, country by country.
+Fig4_agreement: 78 data-rich countries - (a) map of the share of series whose GBD and raw EAPC differ significantly
+                (z test combining both SEs), (b) the same share and sign agreement, country by country.
 Inputs: results/fig_country_metrics.csv, fig_onset_countries.csv (fig_data_country.py), h3*.csv, h6_pubmed.csv.
 Palette: groups blue #2a78d6 / yellow #eda100 / red #e34948 (validated; yellow is always directly labelled).
 """
@@ -68,8 +68,8 @@ def draw_map(ax, values, cmap, norm, missing='#f7f6f3'):
     ax.set_xlim(-170, 180); ax.set_ylim(-57, 84); ax.set_aspect('equal'); ax.axis('off')
 
 
-def cbar(fig, ax, cmap, norm, ticks, labels, title):
-    cax = ax.inset_axes([0.0, 0.12, 0.17, 0.032])
+def cbar(fig, ax, cmap, norm, ticks, labels, title, pos=(0.0, 0.12, 0.17, 0.032)):
+    cax = ax.inset_axes(list(pos))
     sm = mpl.cm.ScalarMappable(cmap=cmap, norm=norm)
     cb = fig.colorbar(sm, cax=cax, orientation='horizontal', ticks=ticks); cb.ax.set_xticklabels(labels, fontsize=5.8)
     cb.outline.set_visible(False); cb.ax.tick_params(length=2); cb.ax.minorticks_off(); cax.set_title(title, fontsize=6, loc='left', pad=2)
@@ -192,22 +192,23 @@ def fig3():
 
 
 def fig4():
-    d = C.dropna(subset=['inside']).copy(); d['inside_pct'] = d.inside * 100; d['sign_pct'] = d.sign * 100
+    d = C.dropna(subset=['differ']).copy(); d['differ_pct'] = d.differ * 100; d['sign_pct'] = d.sign * 100
+    tot = (d.differ * d.n_series).sum() / d.n_series.sum() * 100
     fig = plt.figure(figsize=(180 * MM, 160 * MM)); gs = fig.add_gridspec(2, 1, height_ratios=[1, 1.05], hspace=0.18)
-    ax = fig.add_subplot(gs[0]); seq = LinearSegmentedColormap.from_list('agr', ['#7a1d17', RED, '#f4c7c2', '#f0efec'])
-    draw_map(ax, dict(zip(d.iso3, d.inside_pct)), seq, Normalize(0, 50))
-    cbar(fig, ax, seq, Normalize(0, 50), [0, 10, 20, 30, 40, 50], ['0', '10', '20', '30', '40', '50%'],
-         'Raw VR trend inside GBD 95% CI (% of causes)')
-    ax.set_title(f'In {len(d)} data-rich countries, the trend in the raw registration data fell inside GBD\'s conventional confidence interval for '
-                 f'{(d.inside * d.n_series).sum() / d.n_series.sum() * 100:.0f}% of causes', loc='left'); tag(ax, 'a', -0.02)
-    ax = fig.add_subplot(gs[1]); d = d.sort_values('inside_pct'); x = np.arange(len(d))
-    ax.vlines(x, d.inside_pct, d.sign_pct, color=GRID, lw=1.2, zorder=1)
+    ax = fig.add_subplot(gs[0]); seq = LinearSegmentedColormap.from_list('agr', ['#f0efec', '#f4c7c2', RED, '#7a1d17'])
+    draw_map(ax, dict(zip(d.iso3, d.differ_pct)), seq, Normalize(0, 100))
+    cbar(fig, ax, seq, Normalize(0, 100), [0, 25, 50, 75, 100], ['0', '25', '50', '75', '100%'],
+         'GBD and raw VR trend differ' + chr(10) + 'significantly (% of causes)', pos=(0.6, 0.07, 0.15, 0.032))
+    ax.set_title(f'In {len(d)} data-rich countries, GBD and raw registration trends differed significantly for {tot:.0f}% of causes',
+                 loc='left'); tag(ax, 'a', -0.02)
+    ax = fig.add_subplot(gs[1]); d = d.sort_values('differ_pct'); x = np.arange(len(d))
+    ax.vlines(x, d.differ_pct, d.sign_pct, color=GRID, lw=1.2, zorder=1)
     ax.scatter(x, d.sign_pct, s=10, color=BLUE, zorder=3, lw=0, label='Same direction of trend (GBD vs raw VR)')
-    ax.scatter(x, d.inside_pct, s=10, color=RED, zorder=3, lw=0, label='Raw trend inside GBD 95% CI')
+    ax.scatter(x, d.differ_pct, s=10, color=RED, zorder=3, lw=0, label='Significant difference between GBD and raw trend')
     ax.set_xticks(x); ax.set_xticklabels(d.iso3, rotation=90, fontsize=4.6); ax.set_xlim(-1, len(d)); ax.set_ylim(0, 100)
     ax.set_ylabel('% of causes (series per country: median ' + f'{int(d.n_series.median())})'); ax.grid(True, axis='y')
     ax.legend(loc='lower left', bbox_to_anchor=(0, 1.0), ncol=2, handletextpad=0.2, markerscale=1.2)
-    ax.set_title('Country by country: trends agree in direction, but GBD intervals rarely contain the observed trend', loc='left', pad=16)
+    ax.set_title('Country by country: trends mostly agree in direction, but differ significantly for about half of causes', loc='left', pad=16)
     tag(ax, 'b', -0.06)
     save(fig, 'Fig4_agreement')
 

@@ -6,3 +6,9 @@ H4,pairs with significant GBD-raw difference,4.0
 H5b,series with significant GBD-raw EAPC difference (share),0.5286738351254481
 H5b,median SE ratio raw/GBD,2.2551381786021887
 H5b,GBD EAPC inside raw 95% CI (share),0.4274193548387097
+H5b,"share differing, raw-SE quartile Q1 most precise",0.6182795698924731
+H5b,"share differing, raw-SE quartile Q2",0.5376344086021505
+H5b,"share differing, raw-SE quartile Q3",0.5268817204301075
+H5b,"share differing, raw-SE quartile Q4 least precise",0.43189964157706096
+H5b,"Spearman rho, country share differing vs median raw SE",-0.5914952308325406
+H5b,Spearman P,1.1815199342459139e-08
